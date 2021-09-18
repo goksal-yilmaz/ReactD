@@ -1,0 +1,137 @@
+.App {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.App > *:nth-child(1) {
+  flex: 2 100%;
+}
+
+.App > *:nth-child(2) {
+  flex: 2 80%;
+}
+
+.App > *:nth-child(3) {
+  flex: 2 15%;
+}
+
+.App > *:nth-child(4) {
+  flex: 2 2%;
+}
+
+.fileNameArea {
+  height: 56px;
+  background: #202020;
+  display: flex;
+  align-items: center;
+  z-index: 8;
+  width: 100%;
+  position: absolute;
+}
+
+.FileHeader {
+  color: #fefefe;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  margin-top: 18px;
+  padding-left: 10px;
+}
+
+.bodyArea {
+  background-color: rgba(0, 0, 0, 0.9);
+  max-width: 100%;
+  z-index: 7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Arrow {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.rightMenuSelection {
+  background: #202020;
+  z-index: 8;
+  padding-left: 25px;
+}
+
+.closedMenu {
+  height: 937px;
+  background: grey;
+  z-index: 8;
+  border-left: 1px solid #7e7e7e;
+}
+
+/*  */
+h3 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  letter-spacing: 0.15px;
+  color: #fefefe;
+  width: 83px;
+  height: 23px;
+}
+
+h4 {
+  font-family: Roboto;
+  width: 237px;
+  height: 19px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.15px;
+  color: #fefefe;
+}
+
+p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.15px;
+  color: #7e7e7e;
+}
+
+.text {
+  width: 203px;
+  height: 19px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 0px;
+  letter-spacing: 0.15px;
+  color: #7e7e7e;
+}
+
+.header {
+  width: 100%;
+}
+
+.text1 {
+  width: 90%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.15px;
+  color: #7e7e7e;
+}
